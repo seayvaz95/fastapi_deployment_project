@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn==1.3.1
+pytest
+requests
+fastapi==0.63.0
+uvicorn
+gunicorn
+joblib
+PyYAML
+typing_extensions

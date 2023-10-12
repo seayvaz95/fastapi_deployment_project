@@ -1,0 +1,16 @@
+education - Assoc-voc Precision:  0.91, recall:  0.41, fbeta:  0.56
+education - Preschool Precision:  1.00, recall:  1.00, fbeta:  1.00
+education - HS-grad Precision:  0.92, recall:  0.28, fbeta:  0.43
+education - Bachelors Precision:  0.76, recall:  0.85, fbeta:  0.80
+education - 11th Precision:  1.00, recall:  0.25, fbeta:  0.40
+education - Doctorate Precision:  0.82, recall:  0.86, fbeta:  0.84
+education - Some-college Precision:  0.84, recall:  0.39, fbeta:  0.53
+education - Prof-school Precision:  0.90, recall:  0.96, fbeta:  0.93
+education - 7th-8th Precision:  1.00, recall:  0.12, fbeta:  0.22
+education - 10th Precision:  1.00, recall:  0.23, fbeta:  0.38
+education - Assoc-acdm Precision:  0.77, recall:  0.57, fbeta:  0.66
+education - Masters Precision:  0.84, recall:  0.85, fbeta:  0.84
+education - 12th Precision:  1.00, recall:  0.17, fbeta:  0.29
+education - 9th Precision:  1.00, recall:  0.12, fbeta:  0.22
+education - 5th-6th Precision:  1.00, recall:  0.00, fbeta:  0.00
+education - 1st-4th Precision:  1.00, recall:  0.00, fbeta:  0.00
