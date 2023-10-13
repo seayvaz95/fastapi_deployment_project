@@ -23,7 +23,7 @@ example = {
   "native_country": "United-States"
 }
 
-app_url = "https://udacity-project-3-csw6.onrender.com/predict-income"
+app_url = "https://fastapi-deployment-project.onrender.com/predict-income"
 
 r = requests.post(app_url, json=example)
 assert r.status_code == 200

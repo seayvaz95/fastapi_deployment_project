@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import joblib
 import yaml
 
-with open("../config.yaml", "r") as yamlfile:
+with open("./config.yaml", "r") as yamlfile:
     config = yaml.load(yamlfile, Loader=yaml.FullLoader)
 
 cat_features = config['cat_features']
