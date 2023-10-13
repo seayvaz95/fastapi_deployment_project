@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import joblib
 import yaml
 
-with open("./config.yaml", "r") as yamlfile:
+with open("config.yaml", "r") as yamlfile:
     config = yaml.load(yamlfile, Loader=yaml.FullLoader)
 
 cat_features = config['cat_features']
@@ -18,7 +18,7 @@ def data():
     """
     Fixture will be used by the unit tests.
     """
-    yield pd.read_csv('../data/census_cleaned.csv')
+    yield pd.read_csv('data/census_cleaned.csv')
 
 
 def test_raw_data(data):
@@ -28,7 +28,7 @@ def test_raw_data(data):
 
 
 def test_model():
-    model = joblib.load('../model/model.pkl')
+    model = joblib.load('model/model.pkl')
     assert isinstance(model, RandomForestClassifier)
 
 
