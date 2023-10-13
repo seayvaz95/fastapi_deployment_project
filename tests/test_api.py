@@ -13,12 +13,10 @@ def test_get_root():
     r = client.get("/")
     assert r.status_code == 200
     assert r.json() == {
-        "Hi": "This app predicts wether income exceeds $50K/yr based on census data."}
+        "Hi": "This app predicts if income exceeds $50K/yr based on census data."}
 
 
 def test_post_predict_up():
-    """ Test an example when income is less than 50K """
-
     r = client.post("/predict-income", json={
         "age": 37,
         "workclass": "Private",
@@ -41,7 +39,6 @@ def test_post_predict_up():
 
 
 def test_post_predict_down():
-    """ Test an example when income is higher than 50K """
     r = client.post("/predict-income", json={
         "age": 28,
         "workclass": "Private",
